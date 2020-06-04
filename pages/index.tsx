@@ -1,12 +1,17 @@
+import React from "react";
 import BaseLayout from "../components/layouts/BaseLayout";
+import { Button, Container } from "reactstrap";
 
-const Index = (): any => {
-  return (
-    <BaseLayout>
-      <h1>I am Index Page</h1>
-    </BaseLayout>
-  );
+class Index extends React.Component {
+  render() {
+    return (
+      <BaseLayout>
+        <Container>
+          <Button color="danger">削除</Button>
+        </Container>
+      </BaseLayout>
+    );
+  }
 }
 
 export default Index;
-
