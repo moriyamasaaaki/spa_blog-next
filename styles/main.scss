@@ -1,4 +1,24 @@
+@import './components/header';
+@import './index';
 
-.customClassFromFile {
-  color: blue;
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', 'Helvetica' !important;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.base-page {
+  padding-top: 150px;
+  color: white;
+}
+
+.self-typed {
+  font-size: 31px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
