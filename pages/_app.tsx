@@ -15,7 +15,6 @@ class App extends React.Component {
   }
 
   render() {
-    debugger;
     const { Component, pageProps }: any = this.props;
     return <Component {...pageProps} />;
   }
