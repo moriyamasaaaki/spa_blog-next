@@ -10,7 +10,7 @@ const Portfolio = () => {
   return (
     <BaseLayout>
       <BasePage>
-        {loading && <p>Loading Data...</p>}
+        {loading && <p>読み込み中...</p>}
         {error && <div className="alert alert-danger">{error.message}</div>}
         {portfolio && (
           <>
