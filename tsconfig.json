@@ -25,6 +25,6 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "routes.js"
+    "routes.js", "hoc/withAuth.js"
   ]
 }
