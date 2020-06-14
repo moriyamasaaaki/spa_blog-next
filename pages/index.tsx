@@ -14,7 +14,12 @@ const ROLES = [
 const Index = () => {
 const { data, loading } = useGetUser();
   return (
-    <BaseLayout user={data} loading={loading} className="cover">
+    <BaseLayout
+      user={data}
+      loading={loading}
+      navClass="transparent"
+      className="cover"
+    >
       <div className="main-section">
         <Container>
           <Row>
