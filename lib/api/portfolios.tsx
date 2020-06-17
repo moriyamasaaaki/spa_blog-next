@@ -4,15 +4,19 @@ class PortfolioApi {
   apiUrl: any;
 
   constructor() {
-    this.apiUrl = process.env.PORTFOLIO_API_URL + '/portfolios';
+    this.apiUrl = process.env.PORTFOLIO_API_URL + "/portfolios";
   }
 
   getAll() {
-    return axios.get(this.apiUrl)
+    return axios.get(this.apiUrl);
   }
 
   getById(id) {
-    return axios.get(`${this.apiUrl}/${id}`)
+    return axios.get(`${this.apiUrl}/${id}`);
+  }
+
+  createPortfolio(data) {
+    return axios.post(this.apiUrl, data);
   }
 }
 
