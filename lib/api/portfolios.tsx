@@ -5,13 +5,13 @@ class PortfolioApi {
   config: any;
 
   constructor(accessToken) {
-    this.config = {}
+    this.config = {};
     if (accessToken) {
       this.config.headers = {
         authorization: `Bearer ${accessToken}`,
       };
     }
-    
+
     this.apiUrl = process.env.PORTFOLIO_API_URL + "/portfolios";
   }
 

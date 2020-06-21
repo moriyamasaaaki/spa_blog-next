@@ -25,6 +25,6 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "routes.js", "hoc/withAuth.js", "server.js", "components/PortfolioForm.tsx"
+    "routes.js", "hoc/withAuth.js", "server.js", "components/PortfolioForm.tsx", "pages/portfolios/[id]/index.jsx"
   ]
 }
