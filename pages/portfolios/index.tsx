@@ -1,4 +1,3 @@
-import Link from "next/link";
 import BaseLayout from "../../components/layouts/BaseLayout";
 import BasePage from "../../components/BasePage";
 import { Row, Col } from "reactstrap";
